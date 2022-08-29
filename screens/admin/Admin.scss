@@ -1,0 +1,40 @@
+// AdminChildTable adminTitleAllTable
+.container {
+    width: 100%;
+    padding: 0 15px;
+    height: 100%;
+    align-items: center;
+}
+
+.thead {
+    background-color: silver;
+}
+
+.viewBody {
+    flex-direction: row;
+    width: 100%;
+}
+
+.viewHead {
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+}
+
+.btn {
+    flex-basis: 90%;
+    padding-bottom: 1px;
+}
+
+.tbody {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding-right: 2;
+    padding-left: 2px;
+}
+// AdminChildTable adminTitleAllTable
+
+// ! یه کتابخونه بساز که داخلش اچ۱ و تک پی و تمام تک های اچ تی ام ال رو داشته باشه و همین طور کامپوننت های تکست با فونت های مختلف بساز

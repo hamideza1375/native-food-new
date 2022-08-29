@@ -1,0 +1,769 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prj"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <!-- this is required to save files on Android -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:5:4-80
+13-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:5:21-77
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:6:4-70
+14-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:6:21-67
+15    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+15-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:7:4-81
+15-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:7:21-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:8:4-79
+16-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:8:21-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:10:5-67
+17-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:11:5-66
+18-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:11:22-63
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:12:5-80
+19-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:13:5-80
+20-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:14:5-78
+21-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:14:22-76
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:15:5-76
+22-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:15:22-74
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:16:5-68
+23-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:16:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:18:5-78
+24-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.99.0] /Users/hamid/.gradle/caches/transforms-3/49633fdb92b47708cdd43a4ffcd19972/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.99.0] /Users/hamid/.gradle/caches/transforms-3/49633fdb92b47708cdd43a4ffcd19972/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hamid/.gradle/caches/transforms-3/6499a1af13efc48647037fcffe841018/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hamid/.gradle/caches/transforms-3/6499a1af13efc48647037fcffe841018/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hamid/.gradle/caches/transforms-3/6499a1af13efc48647037fcffe841018/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+30-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+31-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+32    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+32-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/hamid/.gradle/caches/transforms-3/4c94fa1dab44962cb53c4d6e654c7159/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/hamid/.gradle/caches/transforms-3/4c94fa1dab44962cb53c4d6e654c7159/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+33    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+33-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-81
+33-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:22-78
+34    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+34-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-79
+34-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-76
+35    <uses-permission
+35-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-19:38
+36        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+36-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:18:9-73
+37        android:maxSdkVersion="30" /> <!-- For Xiaomi devices to enable heads-up notifications as default (https://github.com/invertase/notifee/issues/296) -->
+37-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-35
+38    <uses-permission
+38-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:21:5-23:38
+39        android:name="android.permission.ACCESS_NOTIFICATION_POLICY"
+39-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:22:9-69
+40        android:minSdkVersion="23" /> <!-- for android -->
+40-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-35
+41    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+45    <!-- for Samsung -->
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+48    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+49    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+50    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+51    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+52    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+53    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+55    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+56    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+57    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/hamid/.gradle/caches/transforms-3/14f83171a6426cad62f1eecbde009991/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+62
+63    <application
+63-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:21:5-41:19
+64        android:name="com.prj.MainApplication"
+64-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:43:7-38
+65        android:allowBackup="false"
+65-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:47:7-34
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.6.0] /Users/hamid/.gradle/caches/transforms-3/bc2200b85ab3a92aad84d3798f9cd294/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+67        android:debuggable="true"
+68        android:extractNativeLibs="false"
+69        android:icon="@mipmap/ic_launcher"
+69-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:45:7-41
+70        android:label="@string/app_name"
+70-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:44:7-39
+71        android:roundIcon="@mipmap/ic_launcher_round"
+71-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:46:7-52
+72        android:theme="@style/AppTheme"
+72-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:48:7-38
+73        android:usesCleartextTraffic="true" >
+73-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/debug/AndroidManifest.xml:8:9-44
+74        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+74-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/debug/AndroidManifest.xml:11:9-86
+74-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/debug/AndroidManifest.xml:11:19-83
+75
+76        <meta-data
+76-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:22:7-23:64
+77            android:name="com.google.android.geo.API_KEY"
+77-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:22:18-63
+78            android:value="AIzaSyB24XlSTwdhcso_O3M-WmbmheVThYPXR5g" />
+78-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:23:7-62
+79        <meta-data
+79-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:24:9-120
+80            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+80-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:24:20-96
+81            android:value="false" />
+81-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:24:97-118
+82        <meta-data
+82-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:25:9-125
+83            android:name="com.dieam.reactnativepushnotification.notification_color"
+83-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:25:20-91
+84            android:resource="@color/white" />
+84-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:25:92-123
+85
+86        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+86-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:26:9-108
+86-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:26:19-105
+87        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+87-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:27:9-110
+87-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:27:19-107
+88        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+88-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:28:9-34:20
+88-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:28:19-115
+89            <intent-filter>
+89-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:29:9-33:25
+90                <action android:name="android.intent.action.BOOT_COMPLETED" />
+90-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:13-75
+90-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:21-72
+91                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+91-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:13-78
+91-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:21-75
+92                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+92-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:13-77
+92-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:21-75
+93            </intent-filter>
+94        </receiver>
+95
+96        <service
+96-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:35:9-39:19
+97            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+97-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:35:18-112
+98            android:exported="false" >
+98-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:35:113-137
+99            <intent-filter>
+99-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:36:11-38:27
+100                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+100-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:37:14-75
+100-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:37:22-72
+101            </intent-filter>
+102        </service>
+103
+104        <uses-library
+104-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:40:9-87
+105            android:name="org.apache.http.legacy"
+105-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:40:23-60
+106            android:required="false" />
+106-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:40:61-85
+107
+108        <service
+108-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:50:13-115
+109            android:name="app.notifee.core.ForegroundService"
+109-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:50:22-71
+110            android:exported="false"
+110-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-37
+111            android:foregroundServiceType="location" />
+111-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:50:72-112
+112
+113        <activity
+113-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:51:7-61:18
+114            android:name="com.prj.MainActivity"
+114-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:52:9-37
+115            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+115-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:54:9-86
+116            android:label="@string/app_name"
+116-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:53:9-41
+117            android:launchMode="singleTask"
+117-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:55:9-40
+118            android:windowSoftInputMode="adjustResize" >
+118-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:56:9-51
+119            <intent-filter>
+119-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:57:9-60:25
+120                <action android:name="android.intent.action.MAIN" />
+120-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:58:13-65
+120-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:58:21-62
+121
+122                <category android:name="android.intent.category.LAUNCHER" />
+122-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:59:13-73
+122-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:59:23-70
+123            </intent-filter>
+124        </activity>
+125        <activity
+125-->[com.google.android.gms:play-services-base:17.2.1] /Users/hamid/.gradle/caches/transforms-3/8f14de4ccf1b8d63c095aaa7e0d59204/transformed/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:17.2.1] /Users/hamid/.gradle/caches/transforms-3/8f14de4ccf1b8d63c095aaa7e0d59204/transformed/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:17.2.1] /Users/hamid/.gradle/caches/transforms-3/8f14de4ccf1b8d63c095aaa7e0d59204/transformed/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:17.2.1] /Users/hamid/.gradle/caches/transforms-3/8f14de4ccf1b8d63c095aaa7e0d59204/transformed/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+129
+130        <provider
+130-->[:notifee_react-native] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:40
+131            android:name="io.invertase.notifee.NotifeeInitProvider"
+131-->[:notifee_react-native] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-68
+132            android:authorities="com.prj.notifee-init-provider"
+132-->[:notifee_react-native] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-73
+133            android:exported="false"
+133-->[:notifee_react-native] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+134            android:initOrder="-100" />
+134-->[:notifee_react-native] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+135
+136        <receiver
+136-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+137            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+137-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+138            android:exported="true"
+138-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+139            android:permission="com.google.android.c2dm.permission.SEND" >
+139-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+140            <intent-filter>
+140-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+141                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+141-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+141-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+142            </intent-filter>
+143        </receiver>
+144        <!--
+145             FirebaseMessagingService performs security checks at runtime,
+146             but set to not exported to explicitly avoid allowing another app to call it.
+147        -->
+148        <service
+148-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+149            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+149-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+152            <intent-filter android:priority="-500" >
+152-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:36:11-38:27
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:37:14-75
+153-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:37:22-72
+154            </intent-filter>
+155        </service>
+156        <service
+156-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+157            android:name="com.google.firebase.components.ComponentDiscoveryService"
+157-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+160            <meta-data
+160-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+161                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+161-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-messaging:23.0.0] /Users/hamid/.gradle/caches/transforms-3/8536da6f88a5f253dfabca3c052fa03c/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+163            <meta-data
+163-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/hamid/.gradle/caches/transforms-3/b4854ef4fd8a9233d34f51a1cb873111/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+164                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+164-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/hamid/.gradle/caches/transforms-3/b4854ef4fd8a9233d34f51a1cb873111/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/hamid/.gradle/caches/transforms-3/b4854ef4fd8a9233d34f51a1cb873111/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-installations:17.0.0] /Users/hamid/.gradle/caches/transforms-3/3ea97224cffb165f480b8bb2769e769e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+167                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+167-->[com.google.firebase:firebase-installations:17.0.0] /Users/hamid/.gradle/caches/transforms-3/3ea97224cffb165f480b8bb2769e769e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-installations:17.0.0] /Users/hamid/.gradle/caches/transforms-3/3ea97224cffb165f480b8bb2769e769e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hamid/.gradle/caches/transforms-3/120e5456692b9f027ad41335e33be16a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hamid/.gradle/caches/transforms-3/120e5456692b9f027ad41335e33be16a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hamid/.gradle/caches/transforms-3/120e5456692b9f027ad41335e33be16a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+172        </service>
+173
+174        <provider
+174-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+175            android:name="com.google.firebase.provider.FirebaseInitProvider"
+175-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+176            android:authorities="com.prj.firebaseinitprovider"
+176-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+177            android:directBootAware="true"
+177-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+178            android:exported="false"
+178-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+179            android:initOrder="100" />
+179-->[com.google.firebase:firebase-common:20.0.0] /Users/hamid/.gradle/caches/transforms-3/304c8f4c2ae8c4300d3f3d689879388f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+180
+181        <receiver
+181-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+182-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+184            android:exported="false" >
+184-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+185        </receiver>
+186
+187        <service
+187-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+188            android:name="com.google.android.gms.measurement.AppMeasurementService"
+188-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+191        <service
+191-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+192            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+192-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/hamid/.gradle/caches/transforms-3/bf5e3b4b41b493b8594e8f6420f522de/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hamid/.gradle/caches/transforms-3/2007d3c05f0882021280b356b1912947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hamid/.gradle/caches/transforms-3/2007d3c05f0882021280b356b1912947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hamid/.gradle/caches/transforms-3/2007d3c05f0882021280b356b1912947/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+200
+201        <provider
+201-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+202            android:name="com.imagepicker.ImagePickerProvider"
+202-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+203            android:authorities="com.prj.imagepickerprovider"
+203-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+204            android:exported="false"
+204-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+205            android:grantUriPermissions="true" >
+205-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+206            <meta-data
+206-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+207                android:name="android.support.FILE_PROVIDER_PATHS"
+207-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+208                android:resource="@xml/imagepicker_provider_paths" />
+208-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+209        </provider>
+210        <provider
+210-->[:react-native-webview] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+211            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+211-->[:react-native-webview] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+212            android:authorities="com.prj.fileprovider"
+212-->[:react-native-webview] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+213            android:exported="false"
+213-->[:react-native-webview] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+214            android:grantUriPermissions="true" >
+214-->[:react-native-webview] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+215            <meta-data
+215-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+216                android:name="android.support.FILE_PROVIDER_PATHS"
+216-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+217                android:resource="@xml/file_provider_paths" />
+217-->[:react-native-image-picker] /Users/hamid/Desktop/food.code-workspace/NativeFood/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+218        </provider>
+219
+220        <service
+220-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+221            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+221-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+222            android:exported="false" >
+222-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+223            <meta-data
+223-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+224                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+224-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+225                android:value="cct" />
+225-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hamid/.gradle/caches/transforms-3/7f6d14777ce9f0206e058597be477fa4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+226        </service>
+227
+228        <provider
+228-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+229            android:name="androidx.startup.InitializationProvider"
+229-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+230            android:authorities="com.prj.androidx-startup"
+230-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+231            android:exported="false" >
+231-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+232            <meta-data
+232-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+233                android:name="androidx.work.WorkManagerInitializer"
+233-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+234                android:value="androidx.startup" />
+234-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+235        </provider>
+236
+237        <service
+237-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+238            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+238-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+239            android:directBootAware="false"
+239-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+240            android:enabled="@bool/enable_system_alarm_service_default"
+240-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+241            android:exported="false" />
+241-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+242        <service
+242-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+243            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+243-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+245            android:enabled="@bool/enable_system_job_service_default"
+245-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+246            android:exported="true"
+246-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+247            android:permission="android.permission.BIND_JOB_SERVICE" />
+247-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+248        <service
+248-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+249            android:name="androidx.work.impl.foreground.SystemForegroundService"
+249-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+251            android:enabled="@bool/enable_system_foreground_service_default"
+251-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+252            android:exported="false" />
+252-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+253
+254        <receiver
+254-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+255            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+255-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+257            android:enabled="true"
+257-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+258            android:exported="false" />
+258-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+259        <receiver
+259-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+260            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+260-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+262            android:enabled="false"
+262-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+265                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+265-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+265-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+266                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+266-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+266-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+267            </intent-filter>
+268        </receiver>
+269        <receiver
+269-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+270            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+270-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+272            android:enabled="false"
+272-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+273            android:exported="false" >
+273-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+274            <intent-filter>
+274-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+275                <action android:name="android.intent.action.BATTERY_OKAY" />
+275-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+275-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+276                <action android:name="android.intent.action.BATTERY_LOW" />
+276-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+276-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+277            </intent-filter>
+278        </receiver>
+279        <receiver
+279-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+280            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+280-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+282            android:enabled="false"
+282-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+283            android:exported="false" >
+283-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+284            <intent-filter>
+284-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+285                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+285-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+285-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+286                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+286-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+286-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+287            </intent-filter>
+288        </receiver>
+289        <receiver
+289-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+290            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+290-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+291            android:directBootAware="false"
+291-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+292            android:enabled="false"
+292-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+293            android:exported="false" >
+293-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+294            <intent-filter>
+294-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+295                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+295-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+295-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+296            </intent-filter>
+297        </receiver>
+298        <receiver
+298-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+299            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+299-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+301            android:enabled="false"
+301-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+302            android:exported="false" >
+302-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+303            <intent-filter>
+303-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+304                <action android:name="android.intent.action.BOOT_COMPLETED" />
+304-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:13-75
+304-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:21-72
+305                <action android:name="android.intent.action.TIME_SET" />
+305-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+305-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+306                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+306-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+306-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+307            </intent-filter>
+308        </receiver>
+309        <receiver
+309-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+310            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+310-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+311            android:directBootAware="false"
+311-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+312            android:enabled="@bool/enable_system_alarm_service_default"
+312-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+315                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+315-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+315-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+316            </intent-filter>
+317        </receiver>
+318        <receiver
+318-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+319            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+319-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+320            android:directBootAware="false"
+320-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+321            android:enabled="true"
+321-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+322            android:exported="true"
+322-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+323            android:permission="android.permission.DUMP" >
+323-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+325                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+325-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+325-->[androidx.work:work-runtime:2.7.1] /Users/hamid/.gradle/caches/transforms-3/3ac5f9a4c1c60c36c0c8062f3e58ebec/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+326            </intent-filter>
+327        </receiver>
+328
+329        <service
+329-->[androidx.room:room-runtime:2.2.5] /Users/hamid/.gradle/caches/transforms-3/a13db7d1c9efa81b6484cfd4f4bc955d/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+330            android:name="androidx.room.MultiInstanceInvalidationService"
+330-->[androidx.room:room-runtime:2.2.5] /Users/hamid/.gradle/caches/transforms-3/a13db7d1c9efa81b6484cfd4f4bc955d/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+331            android:directBootAware="true"
+331-->[androidx.room:room-runtime:2.2.5] /Users/hamid/.gradle/caches/transforms-3/a13db7d1c9efa81b6484cfd4f4bc955d/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+332            android:exported="false" />
+332-->[androidx.room:room-runtime:2.2.5] /Users/hamid/.gradle/caches/transforms-3/a13db7d1c9efa81b6484cfd4f4bc955d/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+333
+334        <meta-data
+334-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hamid/.gradle/caches/transforms-3/0a91173a78cd01a3557f5e2495166e20/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+335            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+335-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hamid/.gradle/caches/transforms-3/0a91173a78cd01a3557f5e2495166e20/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+336            android:value="GlideModule" />
+336-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hamid/.gradle/caches/transforms-3/0a91173a78cd01a3557f5e2495166e20/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+337
+338        <service
+338-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+339            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+339-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+340            android:exported="false"
+340-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+341            android:permission="android.permission.BIND_JOB_SERVICE" >
+341-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+342        </service>
+343
+344        <receiver
+344-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+345            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+345-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+346            android:exported="false" /> <!-- Receiver Service -->
+346-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hamid/.gradle/caches/transforms-3/b665277351b4954d0af9b412b006ee85/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+347        <service
+347-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:28:9-30:40
+348            android:name="app.notifee.core.ReceiverService"
+348-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:29:13-60
+349            android:exported="false" />
+349-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-37
+350
+351        <activity
+351-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:32:9-38:75
+352            android:name="app.notifee.core.NotificationReceiverActivity"
+352-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:33:13-73
+353            android:excludeFromRecents="true"
+353-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-46
+354            android:exported="true"
+354-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-36
+355            android:noHistory="true"
+355-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-37
+356            android:taskAffinity=""
+356-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-36
+357            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+357-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-72
+358
+359        <receiver
+359-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:45:9-53:20
+360            android:name="app.notifee.core.RebootBroadcastReceiver"
+360-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:46:13-68
+361            android:exported="false" >
+361-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-37
+362            <intent-filter>
+362-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:29:9-33:25
+363                <action android:name="android.intent.action.BOOT_COMPLETED" />
+363-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:13-75
+363-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:21-72
+364                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+364-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:13-78
+364-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:21-75
+365                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+365-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:13-77
+365-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:21-75
+366            </intent-filter>
+367        </receiver>
+368        <receiver
+368-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:54:9-60:20
+369            android:name="app.notifee.core.AlarmPermissionBroadcastReceiver"
+369-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:55:13-77
+370            android:exported="true" >
+370-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-36
+371            <intent-filter>
+371-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-59:29
+372                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+372-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:17-107
+372-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:25-104
+373            </intent-filter>
+374        </receiver>
+375        <receiver
+375-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:61:9-69:20
+376            android:name="app.notifee.core.NotificationAlarmReceiver"
+376-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:62:13-70
+377            android:exported="false" >
+377-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-37
+378            <intent-filter>
+378-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:29:9-33:25
+379                <action android:name="android.intent.action.BOOT_COMPLETED" />
+379-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:13-75
+379-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:30:21-72
+380                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+380-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:13-78
+380-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:31:21-75
+381                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+381-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:13-77
+381-->/Users/hamid/Desktop/food.code-workspace/NativeFood/android/app/src/main/AndroidManifest.xml:32:21-75
+382            </intent-filter>
+383        </receiver> <!-- Broadcast Receiver -->
+384        <receiver
+384-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:72:9-80:20
+385            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+385-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:73:13-72
+386            android:exported="false" >
+386-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-37
+387            <intent-filter>
+387-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-79:29
+388                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+388-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:17-85
+388-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:25-82
+389                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+389-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-102
+389-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-99
+390                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+390-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-108
+390-->[app.notifee:core:202108261754] /Users/hamid/.gradle/caches/transforms-3/57cc71bdfa95701a5454d8e4333429e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-105
+391            </intent-filter>
+392        </receiver>
+393    </application>
+394
+395</manifest>
